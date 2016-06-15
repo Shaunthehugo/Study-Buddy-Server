@@ -1,0 +1,207 @@
+{
+  "_args": [
+    [
+      {
+        "name": "newrelic",
+        "raw": "newrelic",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/shaundougherty/Documents/Study-Buddy-Server"
+    ]
+  ],
+  "_from": "newrelic@latest",
+  "_id": "newrelic@1.28.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/newrelic",
+  "_nodeVersion": "4.4.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/newrelic-1.28.1.tgz_1466014403107_0.585859025362879"
+  },
+  "_npmUser": {
+    "email": "martin@martinkuba.com",
+    "name": "martinkuba"
+  },
+  "_npmVersion": "2.14.20",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "newrelic",
+    "raw": "newrelic",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/newrelic/-/newrelic-1.28.1.tgz",
+  "_shasum": "3e87bb4aee37209bb7d0d9279f7fc13f8241ef58",
+  "_shrinkwrap": null,
+  "_spec": "newrelic",
+  "_where": "/Users/shaundougherty/Documents/Study-Buddy-Server",
+  "author": {
+    "email": "nodejs@newrelic.com",
+    "name": "New Relic Node.js agent team"
+  },
+  "bugs": {
+    "url": "https://github.com/newrelic/node-newrelic/issues"
+  },
+  "bundleDependencies": [
+    "concat-stream",
+    "https-proxy-agent",
+    "json-stringify-safe",
+    "readable-stream",
+    "semver",
+    "yakaa"
+  ],
+  "contributors": [
+    {
+      "email": "saxon@newrelic.com",
+      "name": "Saxon D'Aubin",
+      "url": "http://newrelic.com"
+    },
+    {
+      "email": "forrest@newrelic.com",
+      "name": "Forrest L Norvell",
+      "url": "http://newrelic.com/"
+    },
+    {
+      "email": "jacob@newrelic.com",
+      "name": "Jacob Groundwater",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "wmcdonald@newrelic.com",
+      "name": "Wraithan",
+      "url": "Chris McDonald"
+    },
+    {
+      "email": "mhayes@newrelic.com",
+      "name": "Michael Hayes",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "bclement@newrelic.com",
+      "name": "Bryan Clement",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "jolfert@newrelic.com",
+      "name": "Jeff Olfert",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "wbilkovich@newrelic.com",
+      "name": "Wilson Bilkovich",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "jmerrill@newrelic.com",
+      "name": "Jonathan Merrill",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "mkuba@newrelic.com",
+      "name": "Martin Kuba",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "tkrajcar@newrelic.com",
+      "name": "Tim Krajcar",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "ewang@newrelic.com",
+      "name": "Eric Wang",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "nwolfe@newrelic.com",
+      "name": "Natalie Wolfe",
+      "url": "https://newrelic.com"
+    },
+    {
+      "email": "sshober@newrelic.com",
+      "name": "Seth Shober",
+      "url": "https://newrelic.com"
+    }
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.0",
+    "https-proxy-agent": "^0.3.5",
+    "json-stringify-safe": "^5.0.0",
+    "readable-stream": "^1.1.13",
+    "semver": "^4.2.0",
+    "yakaa": "^1.0.1"
+  },
+  "description": "New Relic agent",
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "mocha": "*",
+    "tap": "0.7.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dist": {
+    "shasum": "3e87bb4aee37209bb7d0d9279f7fc13f8241ef58",
+    "tarball": "https://registry.npmjs.org/newrelic/-/newrelic-1.28.1.tgz"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "gitHead": "d8597b3424da7e2a1c075c04ad130ced9db63fe8",
+  "homepage": "http://github.com/newrelic/node-newrelic",
+  "keywords": [
+    "apm",
+    "performance",
+    "monitoring",
+    "instrumentation",
+    "debugging",
+    "profiling"
+  ],
+  "licenses": [
+    {
+      "type": "proprietary",
+      "url": "https://raw.github.com/newrelic/node-newrelic/master/LICENSE"
+    }
+  ],
+  "maintainers": [
+    {
+      "email": "bclement01@gmail.com",
+      "name": "lykkin"
+    },
+    {
+      "email": "martin@martinkuba.com",
+      "name": "martinkuba"
+    },
+    {
+      "email": "natalie@lifewanted.com",
+      "name": "n.wolfe"
+    },
+    {
+      "email": "nodejs@newrelic.com",
+      "name": "newrelic"
+    },
+    {
+      "email": "allegro@conmolto.org",
+      "name": "tkrajcar"
+    }
+  ],
+  "name": "newrelic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newrelic/node-newrelic.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "1.28.1"
+}
