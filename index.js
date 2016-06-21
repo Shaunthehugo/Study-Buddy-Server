@@ -1,7 +1,7 @@
 // Example express application adding the parse-server module to expose Parse
 // compatible API routes.
 
-var postmark = require('postmark');
+//var postmark = require('postmark');
 
 //require('newrelic');
 var express = require('express');
