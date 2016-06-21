@@ -48,20 +48,20 @@ app.get('/test', function(req, res) {
   res.sendFile(path.join(__dirname, '/public/test.html'));
 });
 
-var client = new postmark.Client("10d4cbd2-e5f1-40d9-a3c9-3e027797fef3");
+//var client = new postmark.Client("10d4cbd2-e5f1-40d9-a3c9-3e027797fef3");
 
-client.sendEmailWithTemplate({
-  "From": "Shaun.dougherty@study-buddy-app.herokuapp.com",
-  "To": userEmail,
-  "TemplateId": 709801,
-  "TemplateModel": {
-    "product_name": "Study Buddy",
-    "name": userFirstName,
-    "action_url": "study-buddy-app.herokuapp.com/confirm",
-    "username": userEmail,
-    "sender_name": "Shaun Dougherty"
-  }
-});
+//client.sendEmailWithTemplate({
+//  "From": "Shaun.dougherty@study-buddy-app.herokuapp.com",
+//  "To": userEmail,
+//  "TemplateId": 709801,
+//  "TemplateModel": {
+//    "product_name": "Study Buddy",
+//    "name": userFirstName,
+//    "action_url": "study-buddy-app.herokuapp.com/confirm",
+//    "username": userEmail,
+//    "sender_name": "Shaun Dougherty"
+//  }
+//});
 
 var port = process.env.PORT || 1337;
 var httpServer = require('http').createServer(app);
