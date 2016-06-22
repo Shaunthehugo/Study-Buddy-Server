@@ -20,7 +20,15 @@ var api = new ParseServer({
   appId: process.env.APP_ID || 'CTe0o6nbWeIB0xQnjJXAedLCgYAwlZDnUWpKmCUa',
   masterKey: process.env.MASTER_KEY || 'iElbl4yZx6jd2bYQTQlNVS1enD1GqVoq5qeomtlU', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://study-buddy-app.herokuapp.com/parse',  // Don't forget to change to https if needed
-  clientKey: 'DaCKL4e8GQTD0ZfN6lb5arBHuEK554nHXQxAssJ4'
+  clientKey: 'DaCKL4e8GQTD0ZfN6lb5arBHuEK554nHXQxAssJ4',
+  push: {
+    ios: {
+      pfx: '/Users/shaundougherty/Documents',
+      passphrase: 'Longcivilwarreturns10',
+      bundleId: 'com.foru.StudyBuddy',
+      production: true
+    }
+  }
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
 // If you wish you require them, you can set them as options in the initialization above:
