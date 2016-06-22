@@ -22,12 +22,20 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL || 'http://study-buddy-app.herokuapp.com/parse',  // Don't forget to change to https if needed
   clientKey: 'DaCKL4e8GQTD0ZfN6lb5arBHuEK554nHXQxAssJ4',
   push: {
-    ios: {
-      pfx: '/Users/shaundougherty/Documents',
-      passphrase: 'Longcivilwarreturns10',
-      bundleId: 'com.foru.StudyBuddy',
-      production: true
-    }
+    ios: [
+      {
+        pfx: '/Users/shaundougherty/Documents/ParseDevPush.p12',
+        passphrase: '',
+        bundleId: 'com.foru.StudyBuddy',
+        production: false // Dev
+      },
+      {
+        pfx: '/Users/shaundougherty/Documents/StudyBuddyPush.p12',
+        passphrase: 'Longcivilwarreturns10',
+        bundleId: 'com.foru.StudyBuddy',
+        production: true // Prod
+      }
+    ]
   }
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
