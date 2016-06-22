@@ -12,3 +12,5 @@ deploy:
   app: study-buddy-app
   api_key: "7008a6d5-ab11-487f-ac8a-5a350ecdbb1d"
   skip_cleanup: true
+after_success:
+  - bash <(curl -s https://codecov.io/bash) 
