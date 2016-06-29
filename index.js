@@ -4,6 +4,7 @@
 //var postmark = require('postmark');
 
 //require('newrelic');
+// require('bootstrap');
 var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
@@ -52,15 +53,18 @@ var mountPath = process.env.PARSE_MOUNT || '/parse';
 app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
+// If user is signed in if()
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
+
+
 // There will be a test page available on the /test path of your server url
 // Remove this before launching your app
-app.get('/test', function(req, res) {
-  res.sendFile(path.join(__dirname, '/public/test.html'));
-});
+// app.get('/test', function(req, res) {
+//   res.sendFile(path.join(__dirname, '/public/test.html'));
+// });
 
 //var client = new postmark.Client("10d4cbd2-e5f1-40d9-a3c9-3e027797fef3");
 
