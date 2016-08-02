@@ -1,6 +1,5 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?)]() 
 [![Build Status](https://travis-ci.org/Shaunthehugo/Study-Buddy-Server.svg?branch=master)](https://travis-ci.org/Shaunthehugo/Study-Buddy-Server)
-[![codecov](https://codecov.io/gh/Shaunthehugo/Study-Buddy-Server/branch/master/graph/badge.svg)](https://codecov.io/gh/Shaunthehugo/Study-Buddy-Server)
 
 # Study-Buddy-Server
 This server is going to be used to hold the data and push notifications for Study Buddy users. The reason for using [Parse Server](https://github.com/ParsePlatform/parse-server) is because of the looming shutdown for the service and my trial with Firebase was cut short after learning it wasn't as customizable.
